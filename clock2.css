@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,800&display=swap');
 
 body {
-	background : url("images/background.JPG") no-repeat center;
+	background : url("background.JPG") no-repeat center;
 	background-attachment : absolute;
   background-size : 90% 90%;
 	backdrop-filter : blur(6px);
