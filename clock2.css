@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,800&display=swap');
+
+body {
+	background : url("images/background.JPG") no-repeat center;
+	background-attachment : absolute;
+  background-size : 90% 90%;
+	backdrop-filter : blur(6px);
+}
+
+#container {
+  position : absolute;
+  top : 50%;
+	margin-top : -80px;
+  left : 0;
+  height : 50%;
+  width : 100%;
+}
+
+#timePanel {
+  display : flex;
+  align-items : center;
+  justify-content : center;
+	position : relative;
+	font-family : 'Rubik', sans-serif;
+	font-size : 120px;
+	line-height : 80px;
+	color : #e5cfa7;
+	width : 400px;
+	padding : 20px;
+	border : 15px solid #e5cfa7;
+	background-color : #000000;
+	background-color : rgba(0,0,0, 0.4);
+}
+
+.center {
+	vertical-align : middle;
+	margin-left : auto;
+	margin-right : auto;
+}
