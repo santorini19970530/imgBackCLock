@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+.Body {
+	background : url("images/background.JPG") no-repeat center;
+  background-size : 90% 90%;
+	backdrop-filter : blur(6px);
+}
+
+.Body1 {
+	background : url("images/background2.JPG") no-repeat center;
+  background-size : auto 100%;
+}
+
+.Container {
+  position : absolute;
+  top : 50%;
+	margin-top : -80px;
+  left : 0;
+  height : 50%;
+  width : 100%;
+}
+
+.Container1 {
+  position : absolute;
+  top : 80%;
+	margin-top : -40px;
+  left : 0;
+  width : 100%;
+}
+
+.TimePanel {
+  display : flex;
+  align-items : center;
+  justify-content : center;
+	position : relative;
+	font-family : 'Rubik', sans-serif;
+	font-size : 120px;
+	line-height : 80px;
+	color : #e5cfa7;
+	width : 400px;
+	padding : 20px;
+	border : 15px solid #e5cfa7;
+	background-color : #000000;
+	background-color : rgba(0,0,0, 0.4);
+	vertical-align : middle;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+.TimePanel1 {
+  display : flex;
+  align-items : center;
+  justify-content : center;
+	position : relative;
+	font-family: 'RocknRoll One', sans-serif;
+	font-size : 120px;
+	line-height : 100px;
+	color : #d9eaec;
+	width : 400px;
+	padding : 30px;
+	background-color : #d9eaec 0.3;
+	vertical-align : middle;
+	margin-left : auto;
+	margin-right : auto;
+}
